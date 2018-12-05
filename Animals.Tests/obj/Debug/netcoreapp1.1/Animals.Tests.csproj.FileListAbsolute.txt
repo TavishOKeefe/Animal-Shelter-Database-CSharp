@@ -1,0 +1,14 @@
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.Tests.deps.json
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.Tests.runtimeconfig.json
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.Tests.runtimeconfig.dev.json
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj/Debug/netcoreapp1.1/Animals.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj/Debug/netcoreapp1.1/Animals.Tests.AssemblyInfo.cs
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.Tests.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.Tests.pdb
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/bin/Debug/netcoreapp1.1/Animals.pdb
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj/Debug/netcoreapp1.1/Animals.Tests.dll
+/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj/Debug/netcoreapp1.1/Animals.Tests.pdb

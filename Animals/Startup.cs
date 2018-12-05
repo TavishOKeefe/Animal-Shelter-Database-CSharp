@@ -1,37 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+using MySql.Data.MySqlClient;
 
 namespace Animals
 {
-    public class Startup
-    {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+  public class Startup
+  {
+      public Startup(IHostingEnvironment env)
+      {
+          var builder = new ConfigurationBuilder()
+            .SetBasePath(env.ContentRootPath)
+            .AddEnvironmentVariables();
+          Configuration = builder.Build();
+      }
+
+      public IConfigurationRoot Configuration { get; }
+
+      public void ConfigureServices(IServiceCollection services)
+      {
+          services.AddMvc();
+      }
+
+      public void Configure(IApplicationBuilder app)
+      {
+        app.UseDeveloperExceptionPage();
+
+        app.UseMvc(routes =>
         {
-        }
+            routes.MapRoute(
+        name: "default",
+        template: "{controller=Home}/{action=Index}/{id?}");
+        });
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        app.Run(async (context) =>
         {
-            loggerFactory.AddConsole();
+            await context.Response.WriteAsync("This page is showing up because you don't have something right!");
+        });
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
-        }
-    }
+      }
+  }
+  public static class DBConfiguration
+  {
+   public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=AnimalsDB;";
+  }
 }

@@ -1,13 +1,13 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Animals.Tests
-{
-    [TestClass]
-    public class UnitTest1
-    {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
-    }
-}
+// using Microsoft.VisualStudio.TestTools.UnitTesting;
+//
+// namespace Animals.Tests
+// {
+//     // [TestClass]
+//     // public class UnitTest1
+//     // {
+//     //     [TestMethod]
+//     //     public void TestMethod1()
+//     //     {
+//     //     }
+//     // }
+// }

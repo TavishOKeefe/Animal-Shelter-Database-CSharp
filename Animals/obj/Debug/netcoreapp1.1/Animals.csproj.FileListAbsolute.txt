@@ -4,3 +4,7 @@
 /Users/Guest/Projects/Animals.Solution/Animals/obj/Debug/netcoreapp1.1/Animals.csprojResolveAssemblyReference.cache
 /Users/Guest/Projects/Animals.Solution/Animals/obj/Debug/netcoreapp1.1/Animals.csproj.CoreCompileInputs.cache
 /Users/Guest/Projects/Animals.Solution/Animals/obj/Debug/netcoreapp1.1/Animals.AssemblyInfo.cs
+/Users/Guest/Projects/Animals.Solution/Animals/bin/Debug/netcoreapp1.1/Animals.dll
+/Users/Guest/Projects/Animals.Solution/Animals/bin/Debug/netcoreapp1.1/Animals.pdb
+/Users/Guest/Projects/Animals.Solution/Animals/obj/Debug/netcoreapp1.1/Animals.dll
+/Users/Guest/Projects/Animals.Solution/Animals/obj/Debug/netcoreapp1.1/Animals.pdb

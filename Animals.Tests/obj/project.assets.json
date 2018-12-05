@@ -10801,10 +10801,10 @@
       "projectName": "Animals.Tests",
       "projectPath": "/Users/Guest/Projects/Animals.Solution/Animals.Tests/Animals.Tests.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj",
+      "outputPath": "/Users/Guest/Projects/Animals.Solution/Animals.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Guest/.config/NuGet/NuGet.Config"
+        "/Users/Guest/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
